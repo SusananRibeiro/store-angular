@@ -8,9 +8,9 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardPricingComponent implements OnInit {
 
 	@Input()
-	gameType:string ="Digital PS4"
+	gameType:string ="Digital PS4" // o dado vem do componente pai "card"
 	@Input()
-	gamePrice:string = "R$ 399,90"
+	gamePrice:string = "R$ 399,90" // o dado vem do componente pai "card"
   constructor() { }
 
   ngOnInit(): void {
